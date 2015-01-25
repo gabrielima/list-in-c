@@ -7,7 +7,7 @@ void* lst_create()
 	
 	*(void **)aux  = NULL;
 	*(void **)(aux + sizeof(void *)) = NULL;
-
+	
 	return aux;
 }
 
